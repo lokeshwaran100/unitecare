@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+
+# yarn
+.yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# eslint
+.eslintcache
+
+# misc
+.DS_Store
+
+# IDE
+.vscode
+.cursor
+.husky
+.idea
+
+# cli
+dist
+
+# env
+packages/packages/.env*
+packages/packages/.env.example
